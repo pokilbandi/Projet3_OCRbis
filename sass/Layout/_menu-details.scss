@@ -1,0 +1,115 @@
+.detail_menu {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_menu {
+    width: 90%;
+    margin-top: 2vh;
+    display: block;
+    
+}
+
+.soulignement {
+    .underline {
+        position: absolute;
+        z-index: 1;
+        width: 20%;
+        height: 7%;
+    }
+    .underline:after {
+        content: "";
+        display: block;
+        width: 0%;
+        border-bottom: 0.50vh solid;
+        transition: width .3s;
+    }
+    .underline:hover:after {
+        width: 100%;
+    } 
+}
+
+
+#contenu_menu_gout {
+    .soulignement>div.underline:nth-child(1){
+        top:29%;
+        left:40%;
+        color: #80cb79;
+    }
+    .soulignement>div.underline:nth-child(2){
+        top:49%;
+        left:40%;
+        color: #80cb79;
+    }
+    .soulignement>div.underline:nth-child(3){
+        top:69%;
+        left:40%;
+        color: #80cb79;
+    }
+}
+
+#contenu_menu_enchante {
+    .soulignement>div.underline:nth-child(1){
+        top:26%;
+        left:37%;
+        width: 26%;
+        
+    }
+    .soulignement>div.underline:nth-child(2){
+        top:51%;
+        left:37%;
+        width: 26%;
+        
+    }
+    .soulignement>div.underline:nth-child(3){
+        top:72%;
+        left:37%;
+        width: 26%;
+        
+    }
+}
+
+#contenu_menu_french {
+    .soulignement>div.underline:nth-child(1){
+        top:28%;
+        left:34%;
+        width: 32%;
+        color: #c67421;
+    }
+    .soulignement>div.underline:nth-child(2){
+        top:50%;
+        left:36%;
+        width: 28%;
+        color: #a56798;
+    }
+    .soulignement>div.underline:nth-child(3){
+        top:72%;
+        left:34%;
+        width: 32%;
+        color: #6e4cc9;
+    }
+}
+
+#contenu_menu_papilles {
+    .soulignement>div.underline:nth-child(1){
+        top:29%;
+        left:36%;
+        width: 28%;
+        color: #0029d9;
+    }
+    .soulignement>div.underline:nth-child(2){
+        top:49%;
+        left:37%;
+        width: 28%;
+        color: #0070ef;
+    }
+    .soulignement>div.underline:nth-child(3){
+        top:69%;
+        left:37%;
+        width: 28%;
+        color: #1f9df6;
+    }
+}

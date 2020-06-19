@@ -1,0 +1,22 @@
+//////////////////////////////* animation soulignement menu detaillé *///////////////////////////////////
+
+//////////////////////////////////////////* Animation DOTS *////////////////////////////////////////////////////
+
+.dots {
+    position: relative;
+    display: inline-block;
+    font-size: 1.4rem;
+    }
+    .dots:after {
+    position: absolute;
+    margin-left: .1rem;
+    content: ' ...';
+    display: inline-block;
+    animation: loading steps(4) 2s infinite;
+    clip: rect(auto, 0px, auto, auto);
+    }
+    @keyframes loading {
+    to {
+    clip: rect(auto, 20px, auto, auto);
+    }
+    }

@@ -1,0 +1,19 @@
+{
+  "name": "projet3_ocr",
+  "version": "1.0.0",
+  "description": "ex OhMyFood",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pokilbandi/Projet3_OCR.git"
+  },
+  "author": "PokiB01",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pokilbandi/Projet3_OCR/issues"
+  },
+  "homepage": "https://github.com/pokilbandi/Projet3_OCR#readme"
+}
