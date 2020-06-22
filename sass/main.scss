@@ -1,8 +1,8 @@
-@import "utils/_animation.scss";
-@import "Layout/accueil";
-@import "Layout/footer";
 @import "Layout/header";
+@import "Layout/footer";
+@import "Layout/accueil";
 @import "Layout/menu-details";
+@import "utils/_animation.scss";
 @import "utils/_mediaQ.scss";
 
 body {
