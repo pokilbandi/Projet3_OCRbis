@@ -245,6 +245,28 @@ ul li {
   margin-left: 5em;
 }
 
+.title__menu__section {
+  padding: 6px;
+  text-decoration: none;
+  position: relative;
+}
+
+.title__menu__section:after {
+  content: "";
+  border-bottom: 2px solid #000;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: scaleX(0);
+  transition: transform 0.25s ease-out 0s;
+}
+
+.title__menu__section:hover:after {
+  transform-origin: left;
+  transform: scaleX(1);
+}
+
 .dots {
   position: relative;
   display: inline-block;
