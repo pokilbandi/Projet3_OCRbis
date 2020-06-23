@@ -258,12 +258,12 @@ ul li {
   position: absolute;
   bottom: 0;
   left: 0;
+  transform-origin: left;
   transform: scaleX(0);
   transition: transform 0.25s ease-out 0s;
 }
 
 .title__menu__section:hover:after {
-  transform-origin: left;
   transform: scaleX(1);
 }
 
