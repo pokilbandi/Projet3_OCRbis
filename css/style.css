@@ -197,7 +197,8 @@ a:link {
 .menu__header {
   width: 100%;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .menu__heading {
@@ -229,7 +230,7 @@ a:link {
   font-family: "pangolin", sans-serif;
 }
 
-ul li {
+.detail_menu-gout ul li {
   display: flex;
   justify-content: space-between;
   list-style-type: none;
@@ -265,6 +266,59 @@ ul li {
 
 .title__menu__section:hover:after {
   transform: scaleX(1);
+}
+
+.detail_menu-enchante {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  background-color: #fcdfdb;
+  margin: auto;
+  padding-bottom: 5%;
+  margin-top: 6%;
+  margin-bottom: 15%;
+  box-shadow: 0 0 10px 3px #D8D8D8;
+}
+
+.double_croche__heading {
+  width: 20%;
+  margin-top: 5%;
+}
+
+.detail_menu-enchante .menu__headingE {
+  font-family: "Devonshire", cursive;
+  font-size: 4rem;
+  margin-top: 0em;
+}
+
+.detail_menu-enchante .menu__section__title {
+  font-family: "kalam", cursive;
+}
+
+.detail_menu-enchante ul li {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  width: 90%;
+  font-family: "kalam", cursive;
+}
+
+.menu__end {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+.double_croche {
+  width: 15%;
+}
+
+.detail_menu-enchante .menu__footer {
+  font-family: "Devonshire", cursive;
+  font-size: 3rem;
 }
 
 .dots {

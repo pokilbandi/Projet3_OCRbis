@@ -12,9 +12,10 @@
 .menu__header {
     width: 100%;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
-.menu__heading{
+.menu__heading {
     background: -webkit-linear-gradient(90deg, #3D923A, #BEFF7F);
     background: linear-gradient(90deg, #3D923A, #BEFF7F);
     background-clip: text;
@@ -39,7 +40,7 @@
     font-size: x-large;
     font-family: "pangolin", sans-serif;
 }
-ul li{
+.detail_menu-gout ul li{
     display: flex;
     justify-content: space-between;
     list-style-type: none;
