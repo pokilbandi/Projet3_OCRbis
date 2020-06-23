@@ -1,0 +1,54 @@
+.detail_menu-gout {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    background-color: #f9fff9;
+    margin: auto;
+    margin-bottom: 15%;
+    padding-bottom: 10%;
+    margin-top: 6%;
+    box-shadow: 0 0 10px 3px #D8D8D8;
+}
+.menu__header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.menu__heading{
+    background: -webkit-linear-gradient(90deg, #3D923A, #BEFF7F);
+    background: linear-gradient(90deg, #3D923A, #BEFF7F);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Kaushan Script", cursive;
+    font-size: 4rem;
+}
+.menu__section__heading {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu_separation {
+    width: 30%;
+    color: linear-gradient(90deg, #3D923A, #BEFF7F);
+}
+.menu__section__title {
+    font-size: x-large;
+    font-family: "pangolin", sans-serif;
+}
+ul li{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 90%;
+    font-family: "pangolin", sans-serif;
+}
+.menu__item__price{
+    margin-right: 2em;
+}
+.menu__item__name {
+    margin-left: 5em;
+}
