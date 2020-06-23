@@ -278,6 +278,7 @@ a:link {
   margin-top: 6%;
   margin-bottom: 15%;
   box-shadow: 0 0 10px 3px #D8D8D8;
+  color: #40171d;
 }
 
 .double_croche__heading {
@@ -319,6 +320,228 @@ a:link {
 .detail_menu-enchante .menu__footer {
   font-family: "Devonshire", cursive;
   font-size: 3rem;
+}
+
+.detail_menu-french {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  background-color: #fff5fe;
+  margin: auto;
+  padding-bottom: 5%;
+  padding-top: 6%;
+  margin-top: 6%;
+  margin-bottom: 15%;
+  box-shadow: 0 0 10px 3px #D8D8D8;
+}
+
+.detail_menu-french .menu__headingF {
+  font-family: "Croissant One", cursive;
+  background: -webkit-linear-gradient(190deg, #8f5aff 0%, #dc8527 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-size: 2rem;
+  margin-top: 1.5em;
+  margin-bottom: 2em;
+}
+
+.detail_menu-french .menu__section__title {
+  font-family: "Merriweather", cursive;
+}
+
+.detail_menu-french ul li {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  width: 90%;
+  font-family: "Merriweather", cursive;
+}
+
+.menu__section__starter {
+  color: #c77412;
+}
+
+.menu__section__dish {
+  color: #a56799;
+}
+
+.menu__section__dessert {
+  color: #6E4CCC;
+}
+
+.detail_menu-french h3 {
+  font-size: 0.75em;
+}
+
+.title__menu__sectionF1 {
+  padding: 6px;
+  text-decoration: none;
+  position: relative;
+}
+
+.title__menu__sectionF1:after {
+  content: "";
+  border-bottom: 2px solid #c77412;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform-origin: left;
+  transform: scaleX(0);
+  transition: transform 0.25s ease-out 0s;
+}
+
+.title__menu__sectionF1:hover:after {
+  transform: scaleX(1);
+}
+
+.title__menu__sectionF2 {
+  padding: 6px;
+  text-decoration: none;
+  position: relative;
+}
+
+.title__menu__sectionF2:after {
+  content: "";
+  border-bottom: 2px solid #a56799;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform-origin: left;
+  transform: scaleX(0);
+  transition: transform 0.25s ease-out 0s;
+}
+
+.title__menu__sectionF2:hover:after {
+  transform: scaleX(1);
+}
+
+.title__menu__sectionF3 {
+  padding: 6px;
+  text-decoration: none;
+  position: relative;
+}
+
+.title__menu__sectionF3:after {
+  content: "";
+  border-bottom: 2px solid #6E4CCC;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform-origin: left;
+  transform: scaleX(0);
+  transition: transform 0.25s ease-out 0s;
+}
+
+.title__menu__sectionF3:hover:after {
+  transform: scaleX(1);
+}
+
+.detail_menu-papilles {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  background-color: #f9f9f9;
+  margin: auto;
+  padding-bottom: 5%;
+  padding-top: 6%;
+  margin-top: 6%;
+  margin-bottom: 15%;
+  box-shadow: 0 0 10px 3px #D8D8D8;
+}
+
+.detail_menu-papilles .menu__headingP {
+  font-family: "Dancing Script", cursive;
+  background: -webkit-linear-gradient(160deg, #0886fbbb 0%, #0229dd 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-size: 5rem;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+}
+
+.detail_menu-papilles .menu__section__title {
+  font-family: "Kalam", cursive;
+}
+
+.detail_menu-papilles ul li {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  width: 90%;
+  font-family: "Kalam", cursive;
+}
+
+.detail_menu-papilles h3 {
+  font-size: 1em;
+}
+
+.title__menu__sectionP1 {
+  padding: 6px;
+  text-decoration: none;
+  position: relative;
+}
+
+.title__menu__sectionP1:after {
+  content: "";
+  border-bottom: 2px solid #0228DD;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform-origin: left;
+  transform: scaleX(0);
+  transition: transform 0.25s ease-out 0s;
+}
+
+.title__menu__sectionP1:hover:after {
+  transform: scaleX(1);
+}
+
+.title__menu__sectionP2 {
+  padding: 6px;
+  text-decoration: none;
+  position: relative;
+}
+
+.title__menu__sectionP2:after {
+  content: "";
+  border-bottom: 2px solid #0670F3;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform-origin: left;
+  transform: scaleX(0);
+  transition: transform 0.25s ease-out 0s;
+}
+
+.title__menu__sectionP2:hover:after {
+  transform: scaleX(1);
+}
+
+.title__menu__sectionP3 {
+  padding: 6px;
+  text-decoration: none;
+  position: relative;
+}
+
+.title__menu__sectionP3:after {
+  content: "";
+  border-bottom: 2px solid #229DF9;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform-origin: left;
+  transform: scaleX(0);
+  transition: transform 0.25s ease-out 0s;
+}
+
+.title__menu__sectionP3:hover:after {
+  transform: scaleX(1);
 }
 
 .dots {
