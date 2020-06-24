@@ -101,45 +101,130 @@ a:link {
 }
 
 .menu_enchante {
-  box-shadow: 0px 0px 15px -2px #f5e2bc;
+  box-shadow: 0px 0px 15px -2px #c2c1bf;
   align-self: center;
   margin-top: 40px;
   justify-self: right;
   margin-right: 20px;
+  height: 27em;
+  width: 19em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   grid-column: 1;
   grid-row: 1;
   margin-top: 120px;
+  background-color: #fcdfdb;
+}
+.menu_enchante h2 {
+  color: #3d1319;
+  font-family: "devonshire", cursive;
+  font-size: 1.75em;
+  font-weight: lighter;
+}
+.menu_enchante h3 {
+  color: #3d1319;
+  font-family: "Kalam", cursive;
+  font-size: 2em;
+}
+
+.fa-music {
+  font-size: 45px;
+  margin-right: 30px;
+  color: #f6916a;
+  color: #f13639;
+  background: -webkit-linear-gradient(190deg, #f6916a 0%, #f13639 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 
 .menu_french {
-  box-shadow: 0px 0px 15px -2px #f5e2bc;
+  box-shadow: 0px 0px 15px -2px #c2c1bf;
   align-self: center;
   margin-top: 40px;
   justify-self: right;
   margin-right: 20px;
+  height: 27em;
+  width: 19em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   grid-column: 1;
   grid-row: 2;
+  background-color: #fff5fe;
+}
+.menu_french h2 {
+  font-size: 1.25em;
+  font-family: "Croissant One", cursive;
+  background: -webkit-linear-gradient(190deg, #8f5aff 0%, #dc8527 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.menu_french h3 {
+  font-family: "Kalam", cursive;
+  color: #c77412;
+  font-size: 2em;
 }
 
 .menu_papilles {
-  box-shadow: 0px 0px 15px -2px #f5e2bc;
+  box-shadow: 0px 0px 15px -2px #c2c1bf;
   align-self: center;
   margin-top: 40px;
   justify-self: left;
   margin-left: 20px;
+  height: 27em;
+  width: 19em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   grid-column: 2;
   grid-row: 1;
   margin-top: 120px;
+  background-color: #f9f9f9;
+}
+.menu_papilles h2 {
+  background: -webkit-linear-gradient(160deg, #0886fbbb 0%, #0229dd 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-family: "Dancing Script", cursive;
+  font-size: 1.75em;
+}
+.menu_papilles h3 {
+  font-family: "Kalam", cursive;
+  color: #0887fb;
+  font-size: 2em;
 }
 
 .menu_gout {
-  box-shadow: 0px 0px 15px -2px #f5e2bc;
+  box-shadow: 0px 0px 15px -2px #c2c1bf;
   align-self: center;
   margin-top: 40px;
   justify-self: left;
   margin-left: 20px;
+  height: 27em;
+  width: 19em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   grid-column: 2;
   grid-row: 2;
+  background-color: #f9f9f9;
+}
+.menu_gout h2 {
+  background: -webkit-linear-gradient(145deg, #beff7f 0%, #4ea043 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-family: "Kaushan script", cursive;
+  font-size: 1.75em;
+}
+.menu_gout h3 {
+  font-family: "Kalam", cursive;
+  color: #72bf56;
+  font-size: 2em;
 }
 
 .soon {
@@ -161,23 +246,23 @@ a:link {
   border-radius: 15px;
 }
 
-.zoom_hover .img_zoom {
+.zoom_hover .a {
   overflow: hidden;
   position: relative;
 }
-.zoom_hover .img_zoom * {
+.zoom_hover .a * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-.zoom_hover .img_zoom img {
+.zoom_hover .a .img_zoom {
   width: 100%;
   max-width: 300px;
   transition: all 0.8s;
   opacity: 1;
   transition: 0.3s ease-in-out;
 }
-.zoom_hover:hover .img_zoom img {
+.zoom_hover:hover .a .img_zoom {
   transform: scale(1.16);
   opacity: 0.5;
 }
@@ -201,7 +286,7 @@ a:link {
   align-items: center;
 }
 
-.menu__heading {
+.menu__headingG {
   background: -webkit-linear-gradient(90deg, #3D923A, #BEFF7F);
   background: linear-gradient(90deg, #3D923A, #BEFF7F);
   background-clip: text;
@@ -574,7 +659,8 @@ a:link {
   }
 
   .menu_enchante {
-    box-shadow: 0px 0px 15px -2px #f5e2bc;
+    box-shadow: 0px 0px 15px -2px #c2c1bf;
+    align-self: center;
     width: 18em;
     grid-column: 1;
     grid-row: 1;
@@ -582,7 +668,8 @@ a:link {
   }
 
   .menu_french {
-    box-shadow: 0px 0px 15px -2px #f5e2bc;
+    box-shadow: 0px 0px 15px -2px #c2c1bf;
+    align-self: center;
     width: 18em;
     grid-column: 1;
     grid-row: 2;
@@ -590,15 +677,18 @@ a:link {
   }
 
   .menu_papilles {
-    box-shadow: 0px 0px 15px -2px #f5e2bc;
+    box-shadow: 0px 0px 15px -2px #c2c1bf;
+    align-self: center;
     width: 18em;
     grid-column: 1;
     grid-row: 3;
     margin-right: 1em;
+    margin-top: 2.5em;
   }
 
   .menu_gout {
-    box-shadow: 0px 0px 15px -2px #f5e2bc;
+    box-shadow: 0px 0px 15px -2px #c2c1bf;
+    align-self: center;
     width: 18em;
     grid-column: 1;
     grid-row: 4;
@@ -614,8 +704,164 @@ a:link {
     font-size: 0.75em;
   }
 
-  .soulignement .underline:after {
-    border-bottom: 0.25vh solid;
+  .detail_menu-enchante .menu__footer {
+    font-size: 2rem;
+  }
+
+  .menu__item__price {
+    margin-right: 0em;
+    margin-left: 1em;
+  }
+
+  .menu__item__name {
+    margin-left: -1em;
+  }
+
+  .menu_separation {
+    width: 20%;
+  }
+
+  .title__menu__section {
+    font-size: 1rem;
+  }
+
+  .title__menu__section:after {
+    content: "";
+    border-bottom: 1px solid #000;
+  }
+
+  .detail_menu-enchante {
+    width: 90%;
+    margin: auto;
+    padding-bottom: 5%;
+    margin-top: 9%;
+    margin-bottom: 15%;
+  }
+
+  .double_croche__heading {
+    width: 20%;
+    margin-top: 5%;
+  }
+
+  .detail_menu-enchante .menu__headingE {
+    font-family: "Devonshire", cursive;
+    font-size: 2em;
+    margin-top: 0em;
+  }
+
+  .detail_menu-enchante .menu__section__title {
+    font-family: "kalam", cursive;
+  }
+
+  .detail_menu-enchante ul li {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    font-size: 0.75em;
+    width: 97%;
+    font-family: "kalam", cursive;
+  }
+
+  .menu__end {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+  }
+
+  .detail_menu-french {
+    width: 90%;
+    margin: auto;
+    padding-bottom: 5%;
+    margin-top: 9%;
+    margin-bottom: 30%;
+  }
+
+  .detail_menu-french .menu__headingF {
+    font-size: 1.5rem;
+    margin-top: 1.5em;
+    margin-bottom: 2em;
+  }
+
+  .detail_menu-french ul li {
+    width: 97%;
+    font-size: 0.5em;
+  }
+
+  .detail_menu-french h3 {
+    font-size: 0.35em;
+  }
+
+  .title__menu__sectionF1:after {
+    border-bottom: 1px solid #c77412;
+  }
+
+  .title__menu__sectionF2:after {
+    border-bottom: 1px solid #a56799;
+  }
+
+  .title__menu__sectionF3:after {
+    border-bottom: 2px solid #6E4CCC;
+  }
+
+  .detail_menu-papilles {
+    width: 90%;
+    margin: auto;
+    padding-bottom: 5%;
+    margin-top: 9%;
+    margin-bottom: 30%;
+  }
+
+  .detail_menu-papilles .menu__headingP {
+    font-size: 2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+
+  .detail_menu-papilles ul li {
+    width: 97%;
+    font-size: 0.75em;
+  }
+
+  .detail_menu-papilles h3 {
+    font-size: 0.55em;
+  }
+
+  .title__menu__sectionP1:after {
+    border-bottom: 1px solid #0228DD;
+  }
+
+  .title__menu__sectionP2:after {
+    border-bottom: 1px solid #0670F3;
+  }
+
+  .title__menu__sectionP3:after {
+    border-bottom: 2px solid #229DF9;
+  }
+
+  .detail_menu-gout {
+    width: 90%;
+    margin: auto;
+    padding-bottom: 5%;
+    margin-top: 9%;
+    margin-bottom: 30%;
+  }
+
+  .detail_menu-gout .menu__headingG {
+    font-size: 2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+
+  .detail_menu-gout ul li {
+    width: 97%;
+    font-size: 0.75em;
+  }
+
+  .detail_menu-gout h3 {
+    font-size: 0.55em;
   }
 }
 body {

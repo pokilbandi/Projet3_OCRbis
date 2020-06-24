@@ -1,18 +1,19 @@
 //* Mise en forme *//
 
 @mixin menu_smartphone {
-    box-shadow: 0px 0px 15px -2px rgba(245,226,188,1);
+    box-shadow: 0px 0px 15px -2px rgb(194, 193, 191);
+    align-self: center;
     width: 18em;
 }
 
 
-//////////////////////////////////////* RESPONSIF *//////////////////////////////////
+//////////////////////////////////////* RESPONSIF *//////////////////////////////////////
 
 @media screen and (max-width: 768px)
 {
     
     
-    //* ACCEUIL *//
+//////////////////////////////////////* ACCEUIL *//////////////////////////////////////
 
 
 .grid{
@@ -40,6 +41,7 @@
     grid-column: 1;
     grid-row: 3;
     margin-right: 1em;
+    margin-top: 2.5em;
 }
 .menu_gout {
     @include menu_smartphone;
@@ -52,17 +54,158 @@
     grid-row: 5;
 }
 
-    //* FOOTER *//
+//////////////////////////////////////* FOOTER *//////////////////////////////////////
 
 footer {
     font-size: 0.75em;
 }
 
-    //* MENU DETAIL *//
+ //////////////////////////////////////* MENU DETAIL *//////////////////////////////////////
 
-.soulignement {
-    .underline:after {
-        border-bottom: 0.25vh solid
-    }
+.detail_menu-enchante .menu__footer {
+    font-size: 2rem;
 }
+.menu__item__price{
+    margin-right: 0em;
+    margin-left: 1em;
 }
+.menu__item__name {
+    margin-left: -1em;
+}
+.menu_separation {
+    width: 20%;
+}
+.title__menu__section {
+    font-size: 1rem;
+}
+.title__menu__section:after {
+    content: "";
+    border-bottom: 1px solid #000;
+}
+
+ //////////////////////////////////////* MENU ENCHANTE *//////////////////////////////////////
+
+.detail_menu-enchante {
+    width: 90%;
+    margin: auto;
+    padding-bottom: 5%;
+    margin-top: 9%;
+    margin-bottom: 15%;
+}
+.double_croche__heading {
+    width: 20%;
+    margin-top: 5%;
+}
+.detail_menu-enchante .menu__headingE {
+    font-family: "Devonshire", cursive;
+    font-size: 2em;
+    margin-top: 0em;
+}
+.detail_menu-enchante .menu__section__title {
+    font-family: "kalam", cursive;
+}
+.detail_menu-enchante ul li {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    font-size: 0.75em;
+    width: 97%;
+    font-family: "kalam", cursive;
+}
+.menu__end {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+//////////////////////////////////////* MENU FRENCH *//////////////////////////////////////
+
+.detail_menu-french {
+    width: 90%;
+    margin: auto;
+    padding-bottom: 5%;
+    margin-top: 9%;
+    margin-bottom: 30%;
+} 
+.detail_menu-french .menu__headingF {
+    font-size: 1.5rem;
+    margin-top: 1.5em;
+    margin-bottom: 2em;
+}
+.detail_menu-french ul li {
+    width: 97%;
+    font-size: 0.5em;
+}
+.detail_menu-french h3 {
+    font-size: 0.35em;
+}
+.title__menu__sectionF1:after {
+    border-bottom: 1px solid #c77412;
+}
+.title__menu__sectionF2:after {
+    border-bottom: 1px solid #a56799;
+}
+.title__menu__sectionF3:after {
+    border-bottom: 2px solid #6E4CCC;
+}
+
+//////////////////////////////////////* MENU PAPILLES *//////////////////////////////////////
+
+.detail_menu-papilles {
+    width: 90%;
+    margin: auto;
+    padding-bottom: 5%;
+    margin-top: 9%;
+    margin-bottom: 30%;
+} 
+.detail_menu-papilles .menu__headingP {
+    font-size: 2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.detail_menu-papilles ul li {
+    width: 97%;
+    font-size: 0.75em;
+}
+.detail_menu-papilles h3 {
+    font-size: 0.55em;
+}
+.title__menu__sectionP1:after {
+    border-bottom: 1px solid #0228DD;
+}
+.title__menu__sectionP2:after {
+    border-bottom: 1px solid #0670F3;
+}
+.title__menu__sectionP3:after {
+    border-bottom: 2px solid #229DF9;
+}
+
+//////////////////////////////////////* MENU GOÛT *//////////////////////////////////////
+
+.detail_menu-gout {
+    width: 90%;
+    margin: auto;
+    padding-bottom: 5%;
+    margin-top: 9%;
+    margin-bottom: 30%;
+} 
+.detail_menu-gout .menu__headingG {
+    font-size: 2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.detail_menu-gout ul li {
+    width: 97%;
+    font-size: 0.75em;
+}
+.detail_menu-gout h3 {
+    font-size: 0.55em;
+}
+
+
+
+}
+
