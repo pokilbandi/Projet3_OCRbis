@@ -246,23 +246,15 @@ a:link {
   border-radius: 15px;
 }
 
-.zoom_hover .a {
-  overflow: hidden;
+.img_zoom {
   position: relative;
-}
-.zoom_hover .a * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-.zoom_hover .a .img_zoom {
   width: 100%;
   max-width: 300px;
-  transition: all 0.8s;
+  transition: transform 0.8s;
   opacity: 1;
   transition: 0.3s ease-in-out;
 }
-.zoom_hover:hover .a .img_zoom {
+.img_zoom:hover {
   transform: scale(1.16);
   opacity: 0.5;
 }
