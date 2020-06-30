@@ -292,8 +292,6 @@ a:link {
 
 .menu__headingG {
   background: -webkit-linear-gradient(90deg, #3D923A, #BEFF7F);
-  background: linear-gradient(90deg, #3D923A, #BEFF7F);
-  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: "Kaushan Script", cursive;
@@ -311,7 +309,7 @@ a:link {
 
 .menu_separation {
   width: 30%;
-  color: linear-gradient(90deg, #3D923A, #BEFF7F);
+  background-color: linear-gradient(90deg, #3D923A, #BEFF7F);
 }
 
 .menu__section__title {
