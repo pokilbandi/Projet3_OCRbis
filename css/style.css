@@ -292,6 +292,8 @@ a:link {
 
 .menu__headingG {
   background: -webkit-linear-gradient(90deg, #3D923A, #BEFF7F);
+  background: linear-gradient(90deg, #3D923A, #BEFF7F);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: "Kaushan Script", cursive;
@@ -309,7 +311,6 @@ a:link {
 
 .menu_separation {
   width: 30%;
-  background: linear-gradient(90deg, #3D923A, #BEFF7F);
 }
 
 .menu__section__title {
@@ -639,10 +640,10 @@ a:link {
 
 .dots:after {
   position: absolute;
-  margin-left: 0.1rem;
-  content: " ...";
+  padding-bottom: 10px;
+  content: " ..";
   display: inline-block;
-  animation: loading steps(4) 2s infinite;
+  animation: loading steps(3) 2s infinite;
   clip: rect(auto, 0px, auto, auto);
 }
 
@@ -734,62 +735,35 @@ a:link {
 
   .detail_menu-enchante {
     width: 90%;
-    margin: auto;
-    padding-bottom: 5%;
     margin-top: 9%;
-    margin-bottom: 15%;
-  }
-
-  .double_croche__heading {
-    width: 20%;
-    margin-top: 5%;
   }
 
   .detail_menu-enchante .menu__headingE {
-    font-family: "Devonshire", cursive;
     font-size: 2em;
-    margin-top: 0em;
-  }
-
-  .detail_menu-enchante .menu__section__title {
-    font-family: "kalam", cursive;
   }
 
   .detail_menu-enchante ul li {
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none;
     font-size: 0.75em;
     width: 97%;
-    font-family: "kalam", cursive;
   }
 
   .menu__end {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
     margin-top: 1rem;
   }
 
   .detail_menu-french {
     width: 90%;
-    margin: auto;
-    padding-bottom: 5%;
     margin-top: 9%;
     margin-bottom: 30%;
   }
 
   .detail_menu-french .menu__headingF {
-    font-size: 1.5rem;
-    margin-top: 1.5em;
-    margin-bottom: 2em;
+    font-size: 1.25rem;
   }
 
   .detail_menu-french ul li {
     width: 97%;
-    font-size: 0.5em;
+    font-size: 0.25em;
   }
 
   .detail_menu-french h3 {
@@ -805,13 +779,11 @@ a:link {
   }
 
   .title__menu__sectionF3:after {
-    border-bottom: 2px solid #6E4CCC;
+    border-bottom: 1px solid #6E4CCC;
   }
 
   .detail_menu-papilles {
     width: 90%;
-    margin: auto;
-    padding-bottom: 5%;
     margin-top: 9%;
     margin-bottom: 30%;
   }
@@ -819,7 +791,6 @@ a:link {
   .detail_menu-papilles .menu__headingP {
     font-size: 2em;
     margin-top: 1em;
-    margin-bottom: 1em;
   }
 
   .detail_menu-papilles ul li {
@@ -840,12 +811,11 @@ a:link {
   }
 
   .title__menu__sectionP3:after {
-    border-bottom: 2px solid #229DF9;
+    border-bottom: 1px solid #229DF9;
   }
 
   .detail_menu-gout {
     width: 90%;
-    margin: auto;
     padding-bottom: 5%;
     margin-top: 9%;
     margin-bottom: 30%;
