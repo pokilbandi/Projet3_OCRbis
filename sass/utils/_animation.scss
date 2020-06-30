@@ -9,14 +9,15 @@
     }
     .dots:after {
     position: absolute;
-    margin-left: .1rem;
-    content: ' ...';
+    padding-bottom: 10px;
+    content: ' ..';
     display: inline-block;
-    animation: loading steps(4) 2s infinite;
+    animation: loading steps(3) 2s infinite;
     clip: rect(auto, 0px, auto, auto);
     }
     @keyframes loading {
     to {
     clip: rect(auto, 20px, auto, auto);
     }
+  
     }
