@@ -243,6 +243,7 @@ a:link {
   padding-right: 30px;
   padding-left: 30px;
   border-radius: 15px;
+  border-color: transparent;
 }
 
 .img_zoom {
